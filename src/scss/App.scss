@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: 400;
+	background-color: #F1F1F1;
+}
+
+button,
+input {
+	font-family: inherit;
+	font-size: 14px;
+}
+
+.App {
+	width: 1200px;
+	height: 100vh;
+	padding: 40px 10px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.title {
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.actions {
+	display: flex;
+	gap: 10px;
+
+	button {
+		height: 34px;
+		padding: 5px 10px;
+		border: none;
+		align-items: center;
+		font-weight: 500;
+		line-height: 1;
+		text-transform: capitalize;
+		background-color: #fff;
+		border-radius: 5px;
+		cursor: pointer;
+		box-shadow: 0 0 0 rgba($color: #000000, $alpha: 0);
+		transition: all 0.1s ease 0s;
+
+		&:hover {
+			box-shadow: 0 2px 4px rgba($color: #000000, $alpha: 0.2);
+		}
+
+		&.active {
+			background-color: #000;
+			color: #fff;
+		}
+	}
+}
+
+.search {
+	padding: 0 5px;
+	border: none;
+	border-radius: 5px;
+	border: 1px solid #D8D8D8;
+
+	&:focus {
+		outline: 1px solid #C0C0C0;
+		border: none;
+	}
+
+	&::placeholder {
+		color: #C0C0C0;
+		font-weight: 400;
+	}
+}
+
+.collections {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	gap: 20px;
+	padding-bottom: 40px;
+}
+
+.empty {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	color: #C0C0C0;
+}

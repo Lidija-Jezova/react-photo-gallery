@@ -1,0 +1,111 @@
+{
+	"categories": [
+		{
+			"name": "All"
+		},
+		{
+			"name": "Animals"
+		},
+		{
+			"name": "Architecture"
+		},
+		{
+			"name": "Nature"
+		},
+		{
+			"name": "Street"
+		}
+	],
+	"collections": [
+		{
+			"category": "Animals",
+			"name": "Birds",
+			"photos": [
+				"/img/animals/birds/birds-1.jpg",
+				"/img/animals/birds/birds-2.jpg",
+				"/img/animals/birds/birds-3.jpg",
+				"/img/animals/birds/birds-4.jpg"
+			]
+		},
+		{
+			"category": "Animals",
+			"name": "Safari",
+			"photos": [
+				"/img/animals/safari/safari-1.jpg",
+				"/img/animals/safari/safari-2.jpg",
+				"/img/animals/safari/safari-3.jpg",
+				"/img/animals/safari/safari-4.jpg"
+			]
+		},
+		{
+			"category": "Architecture",
+			"name": "Cities architecture",
+			"photos": [
+				"/img/architecture/cities/cities-1.jpg",
+				"/img/architecture/cities/cities-2.jpg",
+				"/img/architecture/cities/cities-3.jpg",
+				"/img/architecture/cities/cities-4.jpg"
+			]
+		},
+		{
+			"category": "Architecture",
+			"name": "Old architecture",
+			"photos": [
+				"/img/architecture/old/old-1.jpg",
+				"/img/architecture/old/old-2.jpg",
+				"/img/architecture/old/old-3.jpg",
+				"/img/architecture/old/old-4.jpg"
+			]
+		},
+		{
+			"category": "Nature",
+			"name": "Forests",
+			"photos": [
+				"/img/nature/forest/forest-1.jpg",
+				"/img/nature/forest/forest-2.jpg",
+				"/img/nature/forest/forest-3.jpg",
+				"/img/nature/forest/forest-4.jpg"
+			]
+		},
+		{
+			"category": "Nature",
+			"name": "River",
+			"photos": [
+				"/img/nature/river/river-1.jpg",
+				"/img/nature/river/river-2.jpg",
+				"/img/nature/river/river-3.jpg",
+				"/img/nature/river/river-4.jpg"
+			]
+		},
+		{
+			"category": "Nature",
+			"name": "Tundra",
+			"photos": [
+				"/img/nature/tundra/tundra-1.jpg",
+				"/img/nature/tundra/tundra-2.jpg",
+				"/img/nature/tundra/tundra-3.jpg",
+				"/img/nature/tundra/tundra-4.jpg"
+			]
+		},
+		{
+			"category": "Street",
+			"name": "Urban streets",
+			"photos": [
+				"/img/street/urban/urban-1.jpg",
+				"/img/street/urban/urban-2.jpg",
+				"/img/street/urban/urban-3.jpg",
+				"/img/street/urban/urban-4.jpg"
+			]
+		},
+		{
+			"category": "Street",
+			"name": "Village streets",
+			"photos": [
+				"/img/street/village/village-1.jpg",
+				"/img/street/village/village-2.jpg",
+				"/img/street/village/village-3.jpg",
+				"/img/street/village/village-4.jpg"
+			]
+		}
+	]
+}
